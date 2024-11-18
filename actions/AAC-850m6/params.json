@@ -1,0 +1,104 @@
+{
+    "category": "plugins",
+    "display": "Sweet Alert",
+    "fields": {
+        "AAD": {
+            "caption": "Icon",
+            "doc": "",
+            "editor": "Dropdown",
+            "name": "icon",
+            "optional": true,
+            "options": "warning,error,success,info,question",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAE": {
+            "caption": "Title",
+            "editor": "DynamicValue",
+            "name": "title",
+            "optional": true,
+            "rank": 2,
+            "value": "text"
+        },
+        "AAF": {
+            "caption": "Text",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "text",
+            "optional": true,
+            "rank": 3,
+            "value": "text"
+        },
+        "AAG": {
+            "caption": "Button Text",
+            "editor": "DynamicValue",
+            "name": "button_text",
+            "optional": true,
+            "rank": 4,
+            "value": "text"
+        },
+        "AAH": {
+            "caption": "Icon Colour",
+            "default_val": "rgba(0, 200, 81, 1)",
+            "editor": "Color",
+            "name": "icon_colour",
+            "optional": false,
+            "rank": 5
+        },
+        "AAI": {
+            "caption": "Footer Message",
+            "editor": "DynamicValue",
+            "name": "footer",
+            "optional": true,
+            "rank": 6,
+            "value": "text"
+        },
+        "AAJ": {
+            "caption": "Backdrop",
+            "default_val": true,
+            "editor": "Checkbox",
+            "name": "backdrop",
+            "rank": 7
+        },
+        "AAK": {
+            "caption": "Confirmation Button Colour",
+            "default_val": "rgba(0, 200, 81, 1)",
+            "editor": "Color",
+            "name": "confirmbuttoncolor",
+            "optional": false,
+            "rank": 8,
+            "value": "text"
+        },
+        "AAM": {
+            "caption": "For help, book a Bubble coaching session with us @ http://bubblelessons.com/",
+            "editor": "Label",
+            "name": "for_help,_book_a_bubble_coaching_session_with_us_@_http://bubblelessons.com/",
+            "rank": 0
+        },
+        "AAO": {
+            "caption": "Alert Position",
+            "default_val": "center",
+            "editor": "Dropdown",
+            "name": "position",
+            "options": "top,top-start,top-end,center,center-start,center-end,bottom,bottom-start,bottom-end",
+            "rank": 9
+        },
+        "AAP": {
+            "caption": "Close via Escape Key",
+            "default_val": true,
+            "editor": "Checkbox",
+            "name": "allowescapekey",
+            "rank": 10
+        },
+        "AAa": {
+            "caption": "theme",
+            "default_val": "Minimal",
+            "editor": "Dropdown",
+            "name": "theme",
+            "optional": true,
+            "options": "Dark,Minimal,Borderless,Bootstrap 4,Bulma,Material UI,WordPress Admin",
+            "rank": 11
+        }
+    },
+    "type": "client_side"
+}

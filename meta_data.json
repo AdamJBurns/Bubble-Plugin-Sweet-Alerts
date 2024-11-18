@@ -1,0 +1,13 @@
+{
+    "categories": {
+        "0": "productivity",
+        "1": "media"
+    },
+    "data_tracked": false,
+    "description": "Sweetalerts2 is a library that allows you to create beautiful, responsive, and customizable alert messages on your website or app.\n\nWe currently support the use of \n\n• Sweet Alerts\n• Toast Alert\n\nBuilt with ❤️ by New Horizon Code.\n\nPrefer one-on-one assistance? Check out our friends at Copilot! Book half-an-hour with them at https://withcopilot.com/sessions",
+    "image": "//meta-q.cdn.bubble.io/f1719312297511x143064524679868300/Sweet%20Alerts.png",
+    "license": "open_source",
+    "link": "https://newhorizoncodesupport.crisp.help/en/article/sweet-alerts-1hfflhh/",
+    "name": "Sweet Alerts",
+    "sa_node_version": 18
+}

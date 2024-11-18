@@ -1,0 +1,69 @@
+{
+    "category": "plugins",
+    "display": "Toast Alert",
+    "fields": {
+        "AAR": {
+            "caption": "Message",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "message",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        },
+        "AAT": {
+            "caption": "Icon",
+            "default_val": "success",
+            "editor": "Dropdown",
+            "name": "icon",
+            "optional": true,
+            "options": "warning,error,success,info,question",
+            "rank": 2
+        },
+        "AAU": {
+            "caption": "Timer",
+            "editor": "DynamicValue",
+            "is_list": false,
+            "name": "timer",
+            "optional": true,
+            "rank": 3,
+            "value": "number"
+        },
+        "AAV": {
+            "caption": "Mixin Postion",
+            "editor": "Dropdown",
+            "name": "position",
+            "optional": true,
+            "options": "top,top-start,top-end,center,center-start,center-end,bottom,bottom-start,bottom-end",
+            "rank": 4
+        },
+        "AAW": {
+            "caption": "Confirmation Button",
+            "default_val": true,
+            "editor": "Checkbox",
+            "name": "confirmbutton",
+            "rank": 5
+        },
+        "AAX": {
+            "caption": "timerbar",
+            "default_val": true,
+            "editor": "Checkbox",
+            "name": "timerbar",
+            "rank": 6
+        },
+        "AAY": {
+            "caption": "confirmbuttoncolor",
+            "default_val": "rgba(255, 68, 68, 1)",
+            "editor": "Color",
+            "name": "confirmbuttoncolor",
+            "rank": 7
+        },
+        "AAZ": {
+            "caption": "For help, book a Bubble coaching session with us @ http://bubblelessons.com/",
+            "editor": "Label",
+            "name": "for_help,_book_a_bubble_coaching_session_with_us_@_http://bubblelessons.com/",
+            "rank": 0
+        }
+    },
+    "type": "client_side"
+}
